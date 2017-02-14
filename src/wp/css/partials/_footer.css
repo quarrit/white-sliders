@@ -1,69 +1,11 @@
-.contentfooter{background-color: #e2e4e2;
-
-}
-.footerbox {
-	font-family: "Kozuka Gothic Pr6N";
-	margin-top: 32px;
-	padding-top:;
-	display: flex;
-	justify-content: space-around;
-	height: 300px;
-	margin-right: 10%;
-	
-	
-}
-.footer__title{
-	font-size: 1.1em;
-	line-height: 30px;
-	position: relative;
-	top: -25px;
-}
-.shape_5 {
-  background-color: rgb(5, 58, 202);
-  position: relative;
-  left: 200px;
-  top: -200px;
-  width: 70%;
-  height: 2px;
-  z-index: 129;
-  
-}
-
-.copyright{
-	font-size: 0.8em;
-	text-align: center;
-	color: rgb(0, 0, 0);
-
-}
-
-.sns__entry{
-	display: flex;
-	justify-content: space-around;
-	margin-top: 8px;
-
-}
-
-@media only screen 
-and (min-width : 1920px){
-.shape_5{
-	position: relative;
-  left: 280px;
-  top: -160px;
-
-}
-}
-@media only screen 
-and (max-width : 800px){
 .contentfooter{
-	height: 250px;
-}
-.footerbox{
-
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 45%;
+	display: flex;
+	justify-content: space-around;
+	border-top: solid 1px white;
 	padding-top: 50px;
-}
-.shape_5{
-	width: 640px;
-	left: 80px;
-	top: -200px;
-}
+	padding-bottom:4%; 
 }

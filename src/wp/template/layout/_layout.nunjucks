@@ -7,7 +7,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title><%-- block title --%>Yamate Office <%-- endblock --%> | {{% projectName %}}</title>
+		<title><%-- block title --%>Tommy Jacob <%-- endblock --%> | {{% projectName %}}</title>
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<meta name="author" content="" />
@@ -56,57 +56,37 @@
 			<nav class="navigation" id="navigation" role="navigation">
 				
 				<ul class="clear">
-					<li><a href="//" class="envellop"><img src="/wp-content/themes/yamate-office/assets/images/common/env.png"></li>
-					<li><a href="/about">About</a></li>
-					<li><a href="/services">Services</li>
-					<li><a href="/q&a">Q&amp;A</a></li>
-					<li><a href="/access">Access</a></li>
+					<li><a href="//"></a></li>
+					<li><a href="/about"></a></li>
+					<li><a href="/services"></li>
+					<li><a href="/q&a"></a></li>
+					<li><a href="/access"></a></li>
 				</ul>
 			</nav>
 		</header>
 
 		
 		</div>
+		
 		<div class="container" id="container">
 		<%-- block content --%> <%-- endblock --%>
-			
-
-
-		</div>
-
-		<footer class="contentfooter">
-	<div class="footerbox">
-		<div class="entry">
-			<div class="footer__title">PARTNER</div>
-			<div class="footer__entry">
-				<div class=""><a href="/">テクスト</a></div>
-				<div class=""><a href="/">テクスト</a></div>
-				<div class=""><a href="/">テクスト</a></div>
-			</div>
-		</div>
-		<div class="entry">
-			<div class="footer__title">INFOS</div>
-			<div class="footer__entry">
-				<div class=""><a href="/">INFOS</a></div>
-				<div class=""><a href="/">INFOS</a></div>
-				<div class=""><a href="/">INFOS</a></div>
-			</div>
-		</div>
-		<div class="entry">
-			<div class="footer__title">FOLLOW US ON</div>
-			<div class="sns__entry">
-				<div class=""><a href="/"><img src="/wp-content/themes/yamate-office/assets/images/common/insta.png" class="sns"></a></div>
-				<div class=""><a href="/"><img src="/wp-content/themes/yamate-office/assets/images/common/facebook.png" class="sns"></a></div>
-				<div class=""><a href="/"><img src="/wp-content/themes/yamate-office/assets/images/common/twitter.png" class="sns"></a></div>
-			</div>
-			
-		</div>
-
-	</div>
-	<div class="copyright">Copyright © 2016 All rights reserved</div>
-		<div class="shape_5"></div>
-		</footer>
 		
+		<footer class="contentfooter">
+		
+			<div class="footerelement">
+				<a href="https://www.facebook.com/TommyJacobMusic/"><img src="wp-content/themes/yamate-office/assets/images/common/face.jpg"></a>
+			</div>
+			<div class="footerelement">
+				<a href="https://soundcloud.com/tommy-jacob"><img src="wp-content/themes/yamate-office/assets/images/common/sc.png"></a>
+			</div>
+			<div class="footerelement">
+				<a href="https://www.instagram.com/tommyjacob/?hl=fr"><img src="wp-content/themes/yamate-office/assets/images/common/insta.jpg"></a>
+			</div>
+			<div class="footerelement">
+				<a href="https://twitter.com/tommyjacobmusic?lang=fr"><img src="wp-content/themes/yamate-office/assets/images/common/twit.png"></a>
+			</div>
+			
+		</div>
 
 		<script src="/wp/wp-content/themes/yamate-office/assets/js/scripts.min.js" type="text/javascript"></script>
 

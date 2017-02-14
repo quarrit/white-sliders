@@ -1,439 +1,79 @@
-.main {
-	font-family: "Kozuka Gothic Pr6N";
+@font-face{
+	font-family: "fragmenta"
+}
+
+html{
+	height: 100%;
 	position: relative;
+
+}
+body{
+	background: black;
+	min-height: 100%;
+
+}
+.main {
+	font-family:;
+	position:;
 	width: 100%;
 	height: 100%;
-	color: white;
-	background-color: white;
-	overflow: hidden;
+	color:;
+	background-color:black;
+	overflow:;
 }
-
-.home__banner{
-	background-color: rgb(48,100,248);
-}
-
-.bgimg{
-	top: 0;
-	left: 0;
-	margin: auto;
-	width: 100%;
-	z-index: 2;
-}
-
-.home__title{
-	font-family:"FuturaBT";
-	font-weight: bold;
-	position: absolute;
-	font-size: 8em;
-	text-align: justify;
-	top: 0;
-	margin-top: 20%;
-	margin-left: 15%;
-	font:bold;
-	z-index: 5;
-}
-
-.home__subtitle{
-	position: absolute;
-	font-size: 1.8em;
-	text-align: justify;
-	top: 0;
-	margin-top: 30%;
-	margin-left: 15%;
-	z-index: 1;
-
-}
-.about{
-	background-color: rgb(48,100,248);
+.hometitle{
+	font-family: "fragmenta" ;
+	font-size: 3em;
+	margin-top: 50px;
 	text-align: center;
-	z-index: 9999;
-	height: 450px;
-	padding-top: 140px;
-
-	
-	&__title{
-	background-color:transparent;
-	position: relative;
-	font-size: 2.5em;
-	padding-bottom: 50px;
-	margin-bottom: 32px;
-	}
-
-	&__text{
-	background-color: transparent;
-	position: absolute;
-	height: initial;
-	font-size: 1.1em;
-	margin-left: 35%;
-	padding-top: 10px;
-	}
-}
-.triangle{
-	position: absolute;
-	left: 50%;
-	top: 26%;
-}
-.ellipse {
-  border-radius: 50%;
-  background-color: rgb(5, 58, 202);
-  position: absolute;
-  right: 33% ;
-  top: 35%;
-  width: 150px;
-  height: 150px;
-}
-.trapeze{
-	position: absolute;
-	left: 24%;
-	top:33%;
-}
-.groupcontent{
-	background-color: white;
-}
-.group6{
-	background-color: white;
-	background-size: 100%;
-	font-size: 1.1em;
-	color: black;
-	text-align: justify;
-	padding-top: 100px;
-	margin-left:25%;
-	max-width: 350px;
-	height: 400px;
-
-	&__title{
-	background-color: white;
-	color: black;
-	font-size: 1.4em;
-	margin-left: initial;
-	}
-}
-.group6__logo{
-	margin-top: 75px;
-	margin-right: 20%;
-	float: right;
-}
-.group6__line{
-	position: absolute;
-	padding-top: 130px;
-}
-.group__arrow{
-	float: right;
-}
-.newsbox{
-	display: flex;
-	width: 100%;
-	height: 450px;
-	background-color: white;
-	overflow: hidden;
-}
-.news{
-	width: 25%;
-	border-top: solid 1px grey;
-	border-right:solid 1px grey;
-	border-bottom: solid 1px grey;
-}
-.news__img{
-}
-.news__arrow{
-		position: relative;
-		float: right;
-		top: -20px;
-}
-.entry{
-	margin-top: 8%;
-	margin-left: 7%;
-	font-family: "Kozuka Gothic Pr6N"
-}
-.post__title{
-
-  font-size: 1.80em;
-  color: rgb(0, 0, 0);
-  line-height: 1.25;
-  z-index: 43;
-}
-.post__date{
-  font-size: 1em;
-  font-family: "FuturaStd";
-  font-style: italic;
-  color: rgb(0, 0, 0);
-  line-height: 2.222;
-}
-.post__text{
-
-  font-size: 18px;
-  font-family: "FuturaStd";
-  color: rgb(0, 0, 0);
-  line-height: 2.222;
-}
-.news__button {
-	height: 50px;
-	width:10%;
-	background: black;
-	padding: 4px;
-	float: right;
-}
-.news__button a{
-	background-color: black;
-	color: white;
-	text-align: justify;
-}
-.content {
-	position: relative;
-}
-.media{
-	padding-top:200px ;
-	background-color: white;
-}
-.media__title{
-	font-weight: bold;
-	background-color: rgb(48,100,248);
-	height: 400px; 
-	font-size: 3.8em;
-	padding-left: 15%;
-	padding-top: 3%; 
-}
-.media__info{
-	font-size: 15px;
-}
-.media__content{
-	background-color: rgb(48,100,248);
-}
-.article{
-
-	position: absolute;
-	top: 93%;
-	background-color: rgb(5,58,202);
-	height: 400px ;
-	width: 300px ;
-	text-align: justify;
-	margin: 8px;
-	margin-left: 15%;
-	padding-top: 8px;
-	padding-left: 16px;
-	z-index: 999;
-}
-.yellowarrow--article{
-	float: right;
-	margin-right: 16px;
-	right: 0;
-	margin-top: 20%;
-	padding-top: 20%;
-}
-.article__img{
-	position: relative;
-
-	height: 25%;
-	top: 58px;
-}
-.article__text{
-	font-size: 0.8em;
-}
-.article__title{
-	font-size: 2em;
-}	
-.article__subtitle{
-	font: 
-}	
-.article--books{
-
-
-	position: absolute;
-	top:83% ;
-	right: 0;
-	background-color: rgb(5,58,202);
-	height: 400px ;
-	width: 300px ;
-	text-align: justify;
-	margin: 8px;
-	margin-left: 0px;
-	padding-top: 8px;
-	padding-left: 16px;
-	margin-right: 15%;
-}
-.article--books p{
-	font-size: 0.8em;
-}
-.book__img{
-	height: 35%;
-	margin-top:10%;
-}
-.article__title{
-	font-size: 2em;
-	font-weight: bold;
-}	
-.article__subtitle{
-	font: 
-}	
-.article--other{
-	
-
-	background-color: rgb(5,58,202);
-	height: 200px ;
-	width: 300px ;
-	text-align: justify;
-	margin: 8px;
-	margin-right: 15%;
-	padding-top: 8px;
-	padding-left: 16px;
-	float: right;
-}
-.article--other a{
-	font-weight: bold;
-}
-.article--other__title{
-	font-weight: bold;
-	font-size: 2em;
-}
-.otherlist li{
 	color: white;
 }
 
-@media only screen 
-and (min-width : 1920px){ 
-.home__title{
-	font-size: 8.5em;
-}
-.home__subtitle{
+.imgcontainer{
 	position: absolute;
-	font-size: 1.9em;
-}
-.about{
-	height: 500px;
-}
-.triangle{
-	position: absolute;
-	left: 50%;
-	top: 33%;
-}
-.ellipse {
-  position: absolute;
-  right: 35% ;
-  top: 42%;
-}
-.trapeze{
-	position: absolute;
-	left: 29%;
-	top:40%;
-}
-.news__button {
-	height: 8%;
-	width:10%;
-	padding:initial;
-	padding-left: 25px;
-}
-.article__img{
-	position: relative;
-
-	height: 25%;
-	top: 2px;
-}
-.book__img{
-	position: relative;
-	height: 25%;
-	top: -25px;
-}
-.yellowarrow--article{
-	float: right;
-	margin-right: 16px;
-	right: 0;
-	margin-top:0;
-	padding-top: 20%;
-}
-.article--other{
-	font-size: 1em;
-	height: 300px;
-}
-}
-
-@media only screen 
-and (max-width : 800px){
-	.home__title{
-	font-size: 5em;
-	z-index: 1;
-}
-
-	.home__subtitle{
-	font-size: 1.5em;
-	z-index: 1;
-}
-	.about{
-	background-color: rgb(48,100,248);
+	right: 20%;
 	text-align: center;
-	height: 300px;
-	
-	
-	&__title{
-	background-color:transparent;
-	position: relative;
-	font-size: 2.5em;
-	top: -55px;
-	margin-bottom: 32px;
+	width: 50%;
+	margin-top:10px;
 
-	}
 
-	&__text{
+}
+
+.imgbox-left{
+	width:400px;
+	overflow: hidden;
+	margin-right: 25%;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	
+}
+.imgbox-left img{
+	transition: transform .3s ease-in-out;
+}
+.imgbox-left img:hover {
+	transform: translateX(-400px);
+
+}
+
+.imgbox-right{
+	width: 400px;
+	overflow: hidden;
+	margin-left: 25%;
+	margin-bottom: 8px;
+	
+}
+.imgbox-right img{
+	transition: transform .3s ease-in-out;
+}
+.imgbox-right img:hover {
+	transform: translateX(-400px);
+
+}
+
+.triggerimg{
+	background-color: white;
 	background-color: transparent;
-	position: relative;
-	top: -50px;
-	font-size: 1.1em;
-	margin-left: 5%;
-	padding-top: 0px;
-}
-}
-.triangle{
-	position: absolute;
-	left: 50%;
-	top: 18%;
-}
-.ellipse {
-  	border-radius: 50%;
-  	background-color: rgb(5, 58, 202);
-  	position: absolute;
-  	right: 20% ;
-  	top: 26%;
-  	width: 150px;
-  	height: 150px;
-}
-.trapeze{
-	position: absolute;
-	left: 15%;
-	top:25%;
-}
-.group6{
-	&__title{
-	font-size: 1em;
-}
-}
-.group6__line{
-	width: 150px;
-}
+	transition: width 4s;
+	
 
-.news__button {
-	width:18%;
-	padding:initial;
-	padding-left: 25px;
 }
-.media__title{
-	padding-left: 10%;
-}
-.article{
-	margin-left: 10%;
-}
-
-.article--books{
-	margin-right: 10%;
-	top: 80%;
-}
-.article--other{
-	margin-right: 10%;
-}
-}
-
-
-
-
-
-
-
-
